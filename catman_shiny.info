@@ -1,0 +1,5 @@
+name = Catman Shiny
+description = A subtheme of Shiny - a simple one-column, tableless, fluid width administration theme.
+core = 7.x
+version = "7.x-1.0"
+base theme = shiny
