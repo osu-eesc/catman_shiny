@@ -3,3 +3,5 @@ description = A subtheme of Shiny - a simple one-column, tableless, fluid width 
 core = 7.x
 version = "7.x-1.0"
 base theme = shiny
+
+stylesheets[all][] =custom.css
