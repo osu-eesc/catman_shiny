@@ -3,3 +3,7 @@
 .megarow-content .field-commerce-customer-billing  span.field-label {
 	display: none;
 }
+
+.ief-product-details .form-item label {
+	float: none;
+}
