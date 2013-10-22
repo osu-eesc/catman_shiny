@@ -1,9 +1,21 @@
 
 
-.megarow-content .field-commerce-customer-billing  span.field-label {
+.megarow-content .field-commerce-customer-billing  span.field-label,
+.link-field-title .description {
 	display: none;
 }
 
+.link-field-title .description
+
 .ief-product-details .form-item label {
 	float: none;
+}
+
+.node-type-osu-catalog-publication table th {
+	background: #AFAFAF;
+}
+
+.node-type-osu-catalog-publication div.view-estimates-expenses {
+	margin-top: 50px;
+	margin-left: 240px;
 }
