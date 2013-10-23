@@ -1,11 +1,13 @@
 
 
-.megarow-content .field-commerce-customer-billing  span.field-label,
+.field-commerce-customer-billing  span.field-label,
 .link-field-title .description {
 	display: none;
 }
 
-.link-field-title .description
+.link-field-title .description {
+
+}
 
 .ief-product-details .form-item label {
 	float: none;
@@ -19,3 +21,7 @@
 	margin-top: 50px;
 	margin-left: 240px;
 }
+
+/*form#osu-catalog-publication-node-form.node-form div div.vertical-tabs div.vertical-tabs-panes fieldset#edit-group_estimates.field-group-tab div.fieldset-wrapper .view-display-id-expense_block {
+  margin: 0;
+}*/
