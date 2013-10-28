@@ -1,6 +1,7 @@
 
 
 .field-commerce-customer-billing  span.field-label,
+.field-commerce-customer-shipping  span.field-label,
 .link-field-title .description {
 	display: none;
 }
