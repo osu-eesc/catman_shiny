@@ -26,3 +26,8 @@
 /*form#osu-catalog-publication-node-form.node-form div div.vertical-tabs div.vertical-tabs-panes fieldset#edit-group_estimates.field-group-tab div.fieldset-wrapper .view-display-id-expense_block {
   margin: 0;
 }*/
+
+
+.page-admin-people .edit-uid {
+	width: 250px;
+}
