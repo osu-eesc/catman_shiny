@@ -6,10 +6,6 @@
 	display: none;
 }
 
-.link-field-title .description {
-
-}
-
 .ief-product-details .form-item label {
 	float: none;
 }
@@ -18,10 +14,10 @@
 	background: #AFAFAF;
 }
 
-.node-type-osu-catalog-publication div.view-estimates-expenses {
+/*.node-type-osu-catalog-publication div.view-estimates-expenses {
 	margin-top: 50px;
 	margin-left: 240px;
-}
+}*/
 
 /*form#osu-catalog-publication-node-form.node-form div div.vertical-tabs div.vertical-tabs-panes fieldset#edit-group_estimates.field-group-tab div.fieldset-wrapper .view-display-id-expense_block {
   margin: 0;
@@ -31,3 +27,46 @@
 .page-admin-people .edit-uid {
 	width: 250px;
 }
+
+.commerce-invoice-number-label,
+.commerce-invoice-created-label {
+  display: inline;
+  font-weight: bold;
+}
+
+.commerce-invoice-created {
+  margin-bottom: 20px;
+}
+
+.eesc-invoice-header {
+  margin-bottom: 40px;
+}
+
+.indent-payment {
+	margin-left: 10px;
+}
+
+.commerce-invoice-commerce-invoice h3 {
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+.group-left h3 {
+  margin-top: 132px;
+}
+
+.catman-invoice-header {
+  margin-bottom: 20px;
+}
+
+p.field-billing-phone {
+  margin: 0;
+}
+
+.field-commerce-customer-shipping,
+.field-commerce-customer-billing {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+
