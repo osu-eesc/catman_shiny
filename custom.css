@@ -28,45 +28,87 @@
 	width: 250px;
 }
 
-.commerce-invoice-number-label,
-.commerce-invoice-created-label {
-  display: inline;
-  font-weight: bold;
-}
 
-.commerce-invoice-created {
-  margin-bottom: 20px;
-}
-
-.eesc-invoice-header {
-  margin-bottom: 40px;
-}
-
-.indent-payment {
-	margin-left: 10px;
-}
-
-.commerce-invoice-commerce-invoice h3 {
+/* link or file upload styles */
+div.form-item-field-link-or-upload-und {
+  display: inline-block;
   margin-bottom: 0;
-  margin-left: 20px;
 }
 
-.group-left h3 {
-  margin-top: 132px;
-}
-
-.catman-invoice-header {
-  margin-bottom: 20px;
-}
-
-p.field-billing-phone {
+#edit-field-link-or-upload p {
   margin: 0;
 }
 
-.field-commerce-customer-shipping,
-.field-commerce-customer-billing {
-  margin-bottom: 20px;
-  margin-left: 20px;
+div.form-item-field-link-or-upload-und .form-item label.option {
+  padding-left: 0;
+}
+
+div.form-item-field-link-or-upload-und div.form-type-radio {
+  margin-right: 2em;
+}
+
+.form-radios .form-item  {
+    margin-bottom: 0;
+}
+
+#edit-field-preview-file {
+  margin-top: 1em;
+}
+
+/* make "Product catalog" vertical tab go away */
+ul.vertical-tabs-list li.vertical-tab-button:nth-child(7) {
+  display: none;
+}
+
+div#edit-field-pdf-file.field-type-entityreference .form-type-managed-file label {
+  display: none;
+}
+
+
+/* Overrides for inline-entity-form */
+div.fieldset-description {
+  padding
+  color: #666666;
+  font-size: 13px;
+  line-height: 1.231em;
+  margin: 5px 0;
+  font-weight: 100;
+}
+
+.field-widget-inline-entity-form fieldset {
+  border: none;
+}
+
+.page-node-add-estimates-expenses .vertical-tabs .form-type-textfield input,
+.node-type-estimates-expenses .vertical-tabs .form-type-textfield input,
+#edit-field-estimate-entity-ref-und-form  .form-type-textfield input {
+  width: inherit;
+}
+
+/* add some spacing above h3 tags on my workbench page */
+.my-workbench h3 {
+  padding-top: 1.0em;
+}
+
+.page-admin-workbench .attachment-before {
+  display: none;
+}
+
+.page-admin-workbench .commerce-backoffice-view .views-exposed-form .views-widget-filter-combine input {
+  background: white url("images/search.png") no-repeat right center;
+  padding: 3px 20px 3px 5px;
+}
+
+.page-admin-workbench div.view-id-catman_inventory {
+    margin-top: 0;
+}
+
+.kitten {
+  background-image: url('cute-kitten.gif');
+  background-repeat: no-repeat;
+  background-position: left top;
+  min-height: 100px;
+  padding-left: 100px;
 }
 
 

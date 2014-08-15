@@ -5,15 +5,29 @@ body {
   background-color: #fff;
 }
 
-.eesc-invoice-header {
-  margin-bottom: 10px;
+.catman-invoice-header {
+  float: right;
+  margin-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 #branding {
   display: none;
 }
 
-.commerce-invoice-created {
+/* Catman reports printing */
+.catman-reports form,
+div.tabs-secondary,
+table th.views-field-operations-dropbutton,
+table td.views-field-operations-dropbutton {
+  display: none;
+}
+
+.catman-invoice-created {
   margin-bottom: 10px;
 }
 
@@ -25,13 +39,16 @@ body {
   padding-left: 20px;
 }*/
 
-.commerce-invoice-commerce-invoice h3 {
+.entity-catman-invoice h3 {
   font-family: Georgia, "Times New Roman", Times, serif !important;
+  font-size: 100%;
 }
 
-.group-left h3 {
+
+
+/*.group-left h3 {
   margin-top: 90px;
-}
+}*/
 
 
 /* Table Styles */
@@ -64,6 +81,7 @@ table th.views-align-right {
 
 table td {
   padding: 5px 10px !important;
+  background: #fff;
   text-align: left;
   border-color: #E0E0E0;
   border-style: solid;
@@ -86,5 +104,17 @@ tbody tr:nth-child(even) {
   white-space: nowrap;
 }
 
+.attachment-before table.views-table {
+  font-size: 1.75em;
+  margin-bottom: 1.250em;
+}
+
+.catman-reports .view-header {
+  font-size: 2.25em;
+}
+
+.catman-reports .view-grouping-header {
+  font-size: 2.0em;
+}
 
 
