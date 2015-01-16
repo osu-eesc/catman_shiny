@@ -141,6 +141,11 @@ tr.dropbox-entry.odd {
   min-height: 1.875em;
 }
 
+/*hide html vertical tab for now*/
+ul.vertical-tabs-list li:nth-child(6) {
+  display: none;
+}
+
 
 
 
