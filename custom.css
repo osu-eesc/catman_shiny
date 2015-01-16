@@ -146,6 +146,10 @@ ul.vertical-tabs-list li:nth-child(6) {
   display: none;
 }
 
+/* display product info at 100% width */
+.ief-product-details .fieldset-wrapper {
+  width: 100%;
+}
 
 
 
