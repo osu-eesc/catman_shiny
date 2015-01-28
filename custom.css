@@ -151,7 +151,54 @@ ul.vertical-tabs-list li:nth-child(6) {
   width: 100%;
 }
 
+/* Overrides for series number lookup */
+fieldset.series-lookup {
+  width: 500px;
+  margin-bottom: 1em;
+  background: #f8f8f8;
+}
 
+div.form-item-series-prefix-lookup,
+div.form-item-series-prefix-lookup label,
+div.form-item-series-prefix-lookup select,
+div.form-item-suggested-series-number label,
+div.form-item-suggested-series-number input,
+div.suggested-series-number {
+  display: inline;
+}
+
+div.form-item-series-prefix-lookup label {
+  padding-right: 12px;
+}
+
+input.suggested-series-number {
+  width: 60px !important;
+}
+
+/* fix some backoffice css issues  */
+.commerce-backoffice-view .views-exposed-form .form-item,
+.commerce-backoffice-view .views-exposed-form .form-submit,
+.views-exposed-form .form-submit {
+  padding: 4px 20px !important;
+  margin-top: 0.5em;
+}
+
+
+
+.views-exposed-widgets .views-exposed-widget label {
+ /* display: block !important;*/
+  vertical-align: top;
+}
+
+.form-item-field-full-series-number-value input {
+  width: 120px;
+}
+
+.date-month
+ {
+  width: 80px;
+  width: 80px;
+}
 
 
 
