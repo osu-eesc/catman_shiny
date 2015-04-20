@@ -1,9 +1,13 @@
 body {
-  font: normal 75%/1.1 Georgia, "Times New Roman", Times, serif !important;
-  font-weight: 400;
+  font: normal 75%/1.1 "Open Sans", Arial, sans-serif !important;
   color: #000;
   background-color: #fff;
 }
+
+#console {
+  display: none; /*this is where system messages are displayed*/
+}
+
 
 .catman-invoice-header {
   float: right;
@@ -41,11 +45,13 @@ table td.views-field-operations-dropbutton {
 }*/
 
 .entity-catman-invoice h3 {
-  font-family: Georgia, "Times New Roman", Times, serif !important;
+  font-family: "Open Sans", Arial, sans-serif !important;
   font-size: 100%;
 }
 
-
+#console {
+  display: none;
+}
 
 /*.group-left h3 {
   margin-top: 90px;
