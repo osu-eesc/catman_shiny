@@ -194,10 +194,43 @@ input.suggested-series-number {
   width: 120px;
 }
 
-.date-month
- {
+.date-month {
   width: 80px;
   width: 80px;
+}
+
+
+/* set/override print styles */
+@media print {
+
+  body.page-admin {
+    font: normal 75%/1.1 "Open Sans", Arial, sans-serif !important;
+    color: #000;
+    background-color: #fff;
+  }
+
+ .page-admin .entity-catman-invoice h3 {
+    font-family: "Open Sans", Arial, sans-serif !important;
+    font-size: 100%;
+  }
+
+  #console {
+    display: none;
+  }
+
+}
+/*
+ hightlight invoice number */
+.catman-invoice-number .prefix, .catman-invoice-created .prefix {
+  font-weight: normal;
+}
+
+.catman-invoice-number {
+  font-size: large;
+}
+
+.catman-invoice-number  div:last-of-type {
+  font-weight: bold;
 }
 
 
