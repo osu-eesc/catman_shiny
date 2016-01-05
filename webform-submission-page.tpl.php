@@ -31,7 +31,7 @@
 <?php //print $submission_information; ?>
 
 <h2 class="title webform-proposal-id">
-  <?php print 'EESC Project Proposal #' . $submission->sid; ?>
+  <?php print 'EESC Project Request #' . $submission->sid; ?>
 </h2>
 
 <p class="submitted-date">
